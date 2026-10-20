@@ -1,0 +1,34 @@
+{
+  "name": "stetkeep",
+  "version": "0.4.6",
+  "description": "XML protocol framework + false-positive catalog for Claude Code. Mechanical guardrails against AI refactoring mistakes via hooks, tool-scoped subagents, and path-scoped rules.",
+  "author": {
+    "name": "CJ Kim",
+    "email": "cj@chanjoongx.com",
+    "url": "https://github.com/chanjoongx"
+  },
+  "homepage": "https://stetkeep.com",
+  "repository": "https://github.com/chanjoongx/stetkeep",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "xml-protocols",
+    "false-positive-catalog",
+    "safety-net",
+    "hooks",
+    "subagents",
+    "code-refactoring",
+    "performance",
+    "ai-safety"
+  ],
+  "commands": [
+    "./commands/brain-scan.md",
+    "./commands/craft-audit.md",
+    "./commands/perf-audit.md"
+  ],
+  "agents": [
+    "./agents/brain-router.md",
+    "./agents/craft-specialist.md",
+    "./agents/perf-specialist.md"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "stetkeep",
+  "version": "0.4.6",
+  "description": "XML protocol framework + false-positive catalog for Claude Code. Mechanical guardrails against AI refactoring mistakes via hooks, tool-scoped subagents, and path-scoped rules.",
+  "type": "module",
+  "bin": {
+    "stetkeep": "bin/stetkeep.js",
+    "stet": "bin/stetkeep.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "CJ Kim",
+    "email": "cj@chanjoongx.com",
+    "url": "https://github.com/chanjoongx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanjoongx/stetkeep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chanjoongx/stetkeep/issues"
+  },
+  "homepage": "https://stetkeep.com",
+  "keywords": [
+    "stetkeep",
+    "claude-code",
+    "claude-code-plugin",
+    "claude",
+    "anthropic",
+    "ai-agents",
+    "ai-coding",
+    "prompt-engineering",
+    "xml-protocols",
+    "false-positive-catalog",
+    "guardrails",
+    "code-refactoring",
+    "ai-safety",
+    "hooks",
+    "subagents",
+    "llm-tools",
+    "developer-tools"
+  ],
+  "files": [
+    "bin/",
+    "lib/",
+    "agents/",
+    "commands/",
+    "hooks/",
+    ".claude/rules/",
+    ".claude/settings.example.json",
+    ".claude-plugin/",
+    "BRAIN.md",
+    "CRAFT.md",
+    "PERF.md",
+    "CLAUDE.template.md",
+    "ARCHITECTURE.md",
+    "BOOTSTRAP_GUIDE.md",
+    "PRIVACY.md",
+    "SECURITY.md",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/stetkeep.js --version"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

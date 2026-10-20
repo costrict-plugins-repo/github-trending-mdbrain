@@ -1,0 +1,21 @@
+{
+  "name": "stetkeep-marketplace",
+  "owner": {
+    "name": "CJ Kim",
+    "email": "cj@chanjoongx.com",
+    "url": "https://github.com/chanjoongx"
+  },
+  "metadata": {
+    "description": "stetkeep — XML protocol framework + false-positive catalog for Claude Code.",
+    "homepage": "https://stetkeep.com"
+  },
+  "plugins": [
+    {
+      "name": "stetkeep",
+      "source": "./",
+      "description": "XML protocol framework + false-positive catalog for Claude Code. Mechanical guardrails via hooks, tool-scoped subagents, path-scoped rules.",
+      "keywords": ["guardrails", "protocols", "xml-protocols", "false-positive-catalog", "code-quality", "performance"],
+      "category": "developer-tools"
+    }
+  ]
+}
